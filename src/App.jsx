@@ -5,7 +5,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import Page1 from "./page/Page1";
 import Hero from "./page/Hero";
-import Page3 from "./page/Page3";
+// import Page3 from "./page/Page3";
+import Page4 from "./page/Page4";
 
 
 const App = () => {
@@ -35,10 +36,11 @@ const App = () => {
   
   return (
  
-     <div className="w-full relative ">
+     <div className="w-full relative  ">
       <Hero/>
       <Page1/>
-      <Page3/>
+      {/* <Page3/> */}
+      <Page4/>
       </div>
 
   );
