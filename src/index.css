@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: robotoflex;
+    src: url(../public/robotoflex.woff2);
+}
+*{
+
+    font-family: robotoflex;
+}
