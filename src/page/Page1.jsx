@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Page1 = () => {
     const [allImagesLoaded, setAllImagesLoaded] = useState(false);
-    const [vals, setVals] = useState({ maxIndex: 150, currentIndex: 1 });
+    const [vals, setVals] = useState({ maxIndex: 800, currentIndex: 1 });
 
     const valsRef = useRef(vals); // Store values without triggering re-renders
     const imgLoaded = useRef(0);
