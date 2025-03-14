@@ -32,7 +32,7 @@ const Page1 = () => {
     const preloadImages = () => {
         for (let i = 1; i <= vals.maxIndex; i++) {
             const img = new Image();
-            img.src = `imgs/ezgif-frame-${i.toString().padStart(3, "0")}.jpg`;
+            img.src = `imgs/frame_${i.toString().padStart(4, "0")}.jpeg`;
 
             img.onload = () => {
                 imgLoaded.current++;
